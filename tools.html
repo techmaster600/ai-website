@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Tools Directory — Compare & Filter | AISetu</title>
+<meta name="description" content="Search and filter AI tools by category, price and use case. Compare free vs paid plans with honest ratings.">
+<link rel="canonical" href="https://aisetu.example.com/tools.html">
+<link rel="icon" href="data:,">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+<div class="demo-banner"><strong>Demo build:</strong> tool prices, ratings and features shown are placeholder data — verify before publishing.</div>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="/">
+      <svg viewBox="0 0 32 32" fill="none"><path d="M4 22c6-10 14-16 24-16" stroke="url(#g1)" stroke-width="4" stroke-linecap="round"/><circle cx="4" cy="22" r="3.4" fill="#4f46e5"/><circle cx="28" cy="6" r="3.4" fill="#8b5cf6"/><defs><linearGradient id="g1" x1="4" y1="22" x2="28" y2="6"><stop stop-color="#4f46e5"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient></defs></svg>
+      AI<span class="dot">Setu</span>
+    </a>
+    <nav class="main-nav">
+      <a href="/tools.html" class="active">AI Tools</a>
+      <a href="/students.html">Students</a>
+      <a href="/freelancers.html">Freelancers</a>
+      <a href="/small-business.html">Small Business</a>
+      <a href="/finder.html">Tool Finder</a>
+      <a href="/blog.html">Guides</a>
+    </nav>
+    <div class="header-actions">
+      <a class="btn btn-ghost btn-sm" href="/finder.html">Find my tool</a>
+      <button class="nav-toggle" aria-label="Menu">☰</button>
+    </div>
+  </div>
+</header>
+
+<section class="section" style="padding-bottom:0;">
+  <div class="wrap">
+    <nav class="breadcrumbs"><a href="/">Home</a> / AI Tools</nav>
+    <div class="section-head left">
+      <h2>AI Tools Directory</h2>
+      <p>Search and filter by category, price and use case.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="padding-top:20px;">
+  <div class="wrap">
+    <div class="directory-layout">
+      <aside class="filters">
+        <h4>Search</h4>
+        <input id="directory-search" type="text" placeholder="Search tools..." style="width:100%;padding:9px 10px;border:1px solid var(--border);border-radius:8px;font-size:13.5px;margin-bottom:20px;">
+
+        <div class="filter-group">
+          <h4>Category</h4>
+          <select id="filter-category">
+            <option value="">All categories</option>
+            <option value="Writing">Writing</option>
+            <option value="Design">Design</option>
+            <option value="Video">Video</option>
+            <option value="Productivity">Productivity</option>
+            <option value="Marketing">Marketing</option>
+            <option value="Coding">Coding</option>
+            <option value="Education">Education</option>
+          </select>
+        </div>
+
+        <div class="filter-group">
+          <h4>Price</h4>
+          <select id="filter-price">
+            <option value="">Any price</option>
+            <option value="free">Free plan available</option>
+            <option value="under500">Under ₹500/mo</option>
+            <option value="paid">Paid only</option>
+          </select>
+        </div>
+
+        <div class="filter-group">
+          <h4>Best for</h4>
+          <select id="filter-usecase">
+            <option value="">Anyone</option>
+            <option value="students">Students</option>
+            <option value="freelancers">Freelancers</option>
+            <option value="small-business">Small business</option>
+            <option value="creators">Content creators</option>
+            <option value="developers">Developers</option>
+            <option value="job-seekers">Job seekers</option>
+          </select>
+        </div>
+      </aside>
+
+      <div>
+        <div class="directory-toolbar">
+          <span id="result-count" class="result-count">Loading...</span>
+          <select id="sort-select" class="sort-select">
+            <option value="popular">Most popular</option>
+            <option value="rating">Highest rated</option>
+            <option value="cheapest">Cheapest first</option>
+            <option value="editor">Editor's choice</option>
+          </select>
+        </div>
+        <div id="directory-grid" class="tool-grid"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="/" style="color:#fff;">AI<span class="dot">Setu</span></a>
+        <p>The trusted starting point for discovering, comparing and learning AI tools in India.</p>
+      </div>
+      <div><h4>Explore</h4>
+        <a href="/tools.html">All AI Tools</a>
+        <a href="/finder.html">AI Tool Finder</a>
+        <a href="/blog.html">Guides</a>
+      </div>
+      <div><h4>Audiences</h4>
+        <a href="/students.html">Students</a>
+        <a href="/freelancers.html">Freelancers</a>
+        <a href="/small-business.html">Small Business</a>
+      </div>
+      <div><h4>Categories</h4>
+        <a href="/tools.html?category=Writing">Writing</a>
+        <a href="/tools.html?category=Design">Design</a>
+        <a href="/tools.html?category=Coding">Coding</a>
+      </div>
+      <div><h4>Company</h4>
+        <a href="/about.html">About</a>
+        <a href="/affiliate-disclosure.html">Affiliate Disclosure</a>
+        <a href="/contact.html">Contact</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 AISetu. All tool names & logos belong to their respective owners.</span>
+      <span><a href="/affiliate-disclosure.html">Some links are affiliate links — see disclosure</a></span>
+    </div>
+  </div>
+</footer>
+
+<script src="/js/data.js"></script>
+<script src="/js/main.js"></script>
+<script>
+  // pre-fill category filter from ?category= query param
+  const p = new URLSearchParams(window.location.search);
+  if(p.get("category")) document.getElementById("filter-category").value = p.get("category");
+  document.getElementById("filter-category").dispatchEvent(new Event("change"));
+</script>
+</body>
+</html>

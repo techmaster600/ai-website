@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact | AISetu</title>
+<meta name="description" content="Get in touch with AISetu.">
+<link rel="canonical" href="https://aisetu.example.com/contact.html">
+<link rel="icon" href="data:,">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="/">
+      <svg viewBox="0 0 32 32" fill="none"><path d="M4 22c6-10 14-16 24-16" stroke="url(#g1)" stroke-width="4" stroke-linecap="round"/><circle cx="4" cy="22" r="3.4" fill="#4f46e5"/><circle cx="28" cy="6" r="3.4" fill="#8b5cf6"/><defs><linearGradient id="g1" x1="4" y1="22" x2="28" y2="6"><stop stop-color="#4f46e5"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient></defs></svg>
+      AI<span class="dot">Setu</span>
+    </a>
+    <nav class="main-nav">
+      <a href="/tools.html">AI Tools</a>
+      <a href="/students.html">Students</a>
+      <a href="/freelancers.html">Freelancers</a>
+      <a href="/small-business.html">Small Business</a>
+      <a href="/finder.html">Tool Finder</a>
+      <a href="/blog.html">Guides</a>
+    </nav>
+    <div class="header-actions"><button class="nav-toggle" aria-label="Menu">☰</button></div>
+  </div>
+</header>
+<section class="section">
+  <div class="wrap" style="max-width:560px;">
+    <h1>Contact</h1>
+    <p>This is a demo contact page — wire up a real email address or form handler (e.g. Formspree, a free tier) before launch.</p>
+    <form onsubmit="event.preventDefault(); this.querySelector('button').textContent='Message sent (demo)';">
+      <div style="display:flex;flex-direction:column;gap:12px;max-width:420px;">
+        <input required placeholder="Your name" style="padding:12px 14px;border:1px solid var(--border);border-radius:10px;">
+        <input required type="email" placeholder="Your email" style="padding:12px 14px;border:1px solid var(--border);border-radius:10px;">
+        <textarea required placeholder="Message" rows="5" style="padding:12px 14px;border:1px solid var(--border);border-radius:10px;font-family:inherit;"></textarea>
+        <button class="btn btn-primary" type="submit" style="align-self:flex-start;">Send message</button>
+      </div>
+    </form>
+  </div>
+</section>
+<footer class="site-footer">
+  <div class="wrap"><div class="footer-bottom"><span>© 2026 AISetu.</span></div></div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Best AI Tools for Small Businesses in India | AISetu</title>
+<meta name="description" content="AI tools for marketing, customer support, accounting, invoicing, social media and CRM — picked for Indian small businesses.">
+<link rel="canonical" href="https://aisetu.example.com/small-business.html">
+<link rel="icon" href="data:,">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="/">
+      <svg viewBox="0 0 32 32" fill="none"><path d="M4 22c6-10 14-16 24-16" stroke="url(#g1)" stroke-width="4" stroke-linecap="round"/><circle cx="4" cy="22" r="3.4" fill="#4f46e5"/><circle cx="28" cy="6" r="3.4" fill="#8b5cf6"/><defs><linearGradient id="g1" x1="4" y1="22" x2="28" y2="6"><stop stop-color="#4f46e5"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient></defs></svg>
+      AI<span class="dot">Setu</span>
+    </a>
+    <nav class="main-nav">
+      <a href="/tools.html">AI Tools</a>
+      <a href="/students.html">Students</a>
+      <a href="/freelancers.html">Freelancers</a>
+      <a href="/small-business.html" class="active">Small Business</a>
+      <a href="/finder.html">Tool Finder</a>
+      <a href="/blog.html">Guides</a>
+    </nav>
+    <div class="header-actions">
+      <a class="btn btn-primary btn-sm" href="/finder.html">Find my tool</a>
+      <button class="nav-toggle" aria-label="Menu">☰</button>
+    </div>
+  </div>
+</header>
+
+<section class="hero" style="padding:56px 0 40px;">
+  <div class="wrap">
+    <span class="eyebrow-pill">🏢 For small businesses</span>
+    <h1>AI tools that help you <span class="accent">run your business</span></h1>
+    <p class="lead">Marketing, customer support, accounting, invoicing, social media and CRM tools — with GST-ready options and free options first.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="section-head left">
+      <h2>Tools for small businesses</h2>
+      <p>Filtered from our full directory.</p>
+    </div>
+    <div id="business-tools" class="tool-grid"></div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="wrap">
+    <div class="section-head left">
+      <h2>Small business guides</h2>
+    </div>
+    <div id="business-guides" class="guide-grid"></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap" style="max-width:760px;">
+    <h2>A note on academic honesty</h2>
+    <p>These tools are meant to help you understand concepts faster, improve your own writing and save time on formatting and research — not to write assignments for you. Submitting AI-generated work as your own can violate your institution's academic integrity policy. When in doubt, check your college's rules before using AI on graded work.</p>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-bottom">
+      <span>© 2026 AISetu. All tool names & logos belong to their respective owners.</span>
+      <span><a href="/affiliate-disclosure.html">Some links are affiliate links — see disclosure</a></span>
+    </div>
+  </div>
+</footer>
+
+<script src="/js/data.js"></script>
+<script src="/js/main.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", ()=>{
+    renderInto("business-tools", TOOLS.filter(t=>t.tags.includes("small-business")), toolCardHTML);
+    renderInto("business-guides", GUIDES.filter(g=>g.category==="Small Business"), guideCardHTML);
+  });
+</script>
+</body>
+</html>

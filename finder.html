@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Tool Finder — Get Matched to the Right Tool | AISetu</title>
+<meta name="description" content="Answer 4 quick questions and get matched to AI tools that fit who you are, your goal and your budget.">
+<link rel="canonical" href="https://aisetu.example.com/finder.html">
+<link rel="icon" href="data:,">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="/">
+      <svg viewBox="0 0 32 32" fill="none"><path d="M4 22c6-10 14-16 24-16" stroke="url(#g1)" stroke-width="4" stroke-linecap="round"/><circle cx="4" cy="22" r="3.4" fill="#4f46e5"/><circle cx="28" cy="6" r="3.4" fill="#8b5cf6"/><defs><linearGradient id="g1" x1="4" y1="22" x2="28" y2="6"><stop stop-color="#4f46e5"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient></defs></svg>
+      AI<span class="dot">Setu</span>
+    </a>
+    <nav class="main-nav">
+      <a href="/tools.html">AI Tools</a>
+      <a href="/students.html">Students</a>
+      <a href="/freelancers.html">Freelancers</a>
+      <a href="/small-business.html">Small Business</a>
+      <a href="/finder.html" class="active">Tool Finder</a>
+      <a href="/blog.html">Guides</a>
+    </nav>
+    <div class="header-actions">
+      <a class="btn btn-primary btn-sm" href="/tools.html">Explore Tools</a>
+      <button class="nav-toggle" aria-label="Menu">☰</button>
+    </div>
+  </div>
+</header>
+
+<section class="section">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Find your AI tool in 30 seconds</h2>
+      <p>Answer a few questions and we'll match you against our directory. This is a simple rules-based match on the data in this demo — not a personalised AI recommendation.</p>
+    </div>
+
+    <div id="finder" class="finder-card">
+      <div class="finder-progress"><div id="finder-progress-bar" class="finder-progress-bar"></div></div>
+
+      <div class="finder-step is-active" data-step="1" data-group="who">
+        <h3>What are you?</h3>
+        <div class="opt-grid">
+          <button class="opt-btn" data-value="students">🎓 Student</button>
+          <button class="opt-btn" data-value="freelancers">💻 Freelancer</button>
+          <button class="opt-btn" data-value="small-business">🏢 Small business owner</button>
+          <button class="opt-btn" data-value="creators">🎥 Creator</button>
+          <button class="opt-btn" data-value="job-seekers">📄 Job seeker</button>
+          <button class="opt-btn" data-value="developers">👨‍💻 Developer</button>
+        </div>
+      </div>
+
+      <div class="finder-step" data-step="2" data-group="goal">
+        <h3>What do you want to accomplish?</h3>
+        <div class="opt-grid">
+          <button class="opt-btn" data-value="write">Write better & faster</button>
+          <button class="opt-btn" data-value="design">Create designs or video</button>
+          <button class="opt-btn" data-value="research">Research & study</button>
+          <button class="opt-btn" data-value="run-business">Run my business</button>
+        </div>
+        <div class="finder-nav"><button class="btn btn-ghost btn-sm" data-back>Back</button></div>
+      </div>
+
+      <div class="finder-step" data-step="3" data-group="budget">
+        <h3>What's your monthly budget?</h3>
+        <div class="opt-grid">
+          <button class="opt-btn" data-value="0">Free only</button>
+          <button class="opt-btn" data-value="500">Up to ₹500</button>
+          <button class="opt-btn" data-value="1000">Up to ₹1,000</button>
+          <button class="opt-btn" data-value="999999">No limit</button>
+        </div>
+        <div class="finder-nav"><button class="btn btn-ghost btn-sm" data-back>Back</button></div>
+      </div>
+
+      <div class="finder-step" data-step="4" data-group="freeOnly">
+        <h3>Do you need a free plan specifically?</h3>
+        <div class="opt-grid">
+          <button class="opt-btn" data-value="yes">Yes, must be free</button>
+          <button class="opt-btn" data-value="no">No, budget above is fine</button>
+        </div>
+        <div class="finder-nav"><button class="btn btn-ghost btn-sm" data-back>Back</button></div>
+      </div>
+
+      <div class="finder-step" data-step="5">
+        <h3>Your matches</h3>
+        <p>Based on your answers — browse the full directory for more.</p>
+        <div id="finder-results" class="tool-grid" style="margin-top:16px;"></div>
+        <div class="finder-nav"><a class="btn btn-ghost btn-sm" href="/tools.html">See all tools</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-bottom">
+      <span>© 2026 AISetu. All tool names & logos belong to their respective owners.</span>
+      <span><a href="/affiliate-disclosure.html">Some links are affiliate links — see disclosure</a></span>
+    </div>
+  </div>
+</footer>
+
+<script src="/js/data.js"></script>
+<script src="/js/main.js"></script>
+</body>
+</html>

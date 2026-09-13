@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AISetu — Find the Best AI Tools for Work, Study & Business in India</title>
+<meta name="description" content="Discover, compare and learn how to use AI tools for students, freelancers and small businesses in India. Honest reviews, ₹ pricing, and free-option-first guides.">
+<link rel="canonical" href="https://aisetu.example.com/">
+<meta property="og:title" content="AISetu — Find the Best AI Tools for Work, Study & Business">
+<meta property="og:description" content="Discover, compare and learn how to use AI tools for students, freelancers and small businesses in India.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:,">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "AISetu",
+  "url": "https://aisetu.example.com/",
+  "description": "Discover, compare and learn how to use AI tools for students, freelancers and small businesses in India."
+}
+</script>
+</head>
+<body>
+
+<div class="demo-banner"><strong>Demo build:</strong> tool prices, ratings and features shown are placeholder data for layout purposes — verify before publishing.</div>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="/">
+      <svg viewBox="0 0 32 32" fill="none"><path d="M4 22c6-10 14-16 24-16" stroke="url(#g1)" stroke-width="4" stroke-linecap="round"/><circle cx="4" cy="22" r="3.4" fill="#4f46e5"/><circle cx="28" cy="6" r="3.4" fill="#8b5cf6"/><defs><linearGradient id="g1" x1="4" y1="22" x2="28" y2="6"><stop stop-color="#4f46e5"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient></defs></svg>
+      AI<span class="dot">Setu</span>
+    </a>
+    <nav class="main-nav">
+      <a href="/tools.html" class="active">AI Tools</a>
+      <a href="/students.html">Students</a>
+      <a href="/freelancers.html">Freelancers</a>
+      <a href="/small-business.html">Small Business</a>
+      <a href="/finder.html">Tool Finder</a>
+      <a href="/blog.html">Guides</a>
+    </nav>
+    <div class="header-actions">
+      <a class="btn btn-ghost btn-sm" href="/finder.html">Find my tool</a>
+      <a class="btn btn-primary btn-sm" href="/tools.html">Explore Tools</a>
+      <button class="nav-toggle" aria-label="Menu">☰</button>
+    </div>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <span class="eyebrow-pill">🇮🇳 Built for Indian students, freelancers & small businesses</span>
+    <h1>Find the Best <span class="accent">AI Tools</span> for Work, Study & Business</h1>
+    <p class="lead">Discover, compare and learn how to actually use AI tools — with ₹ pricing, free-option-first guides, and honest pros &amp; cons.</p>
+    <form id="hero-search-form" class="search-box" role="search">
+      <input id="hero-search-input" type="text" placeholder="Search AI tools... e.g. resume writing, video editing" aria-label="Search AI tools">
+      <button type="submit">Search</button>
+    </form>
+    <div class="hero-ctas">
+      <a class="btn btn-primary" href="/tools.html">Explore AI Tools</a>
+      <a class="btn btn-ghost" href="/finder.html">Find the Right Tool</a>
+    </div>
+    <p class="hero-note">150+ tools tracked · Updated weekly · No sign-up required to browse</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Browse by category</h2>
+      <p>Jump straight to the tools built for what you're trying to do.</p>
+    </div>
+    <div class="cat-grid">
+      <a class="cat-card" href="/students.html"><span class="emoji">🎓</span><span class="label">Students</span><small>Notes, research, exams</small></a>
+      <a class="cat-card" href="/freelancers.html"><span class="emoji">💻</span><span class="label">Freelancers</span><small>Proposals, delivery</small></a>
+      <a class="cat-card" href="/small-business.html"><span class="emoji">🏢</span><span class="label">Small Business</span><small>Marketing, support</small></a>
+      <a class="cat-card" href="/tools.html?category=Writing"><span class="emoji">✍️</span><span class="label">Writing</span><small>Essays, emails, copy</small></a>
+      <a class="cat-card" href="/tools.html?category=Design"><span class="emoji">🎨</span><span class="label">Design</span><small>Graphics & branding</small></a>
+      <a class="cat-card" href="/tools.html?category=Video"><span class="emoji">🎥</span><span class="label">Video</span><small>Editing & captions</small></a>
+      <a class="cat-card" href="/tools.html?category=Productivity"><span class="emoji">📊</span><span class="label">Productivity</span><small>Notes & planning</small></a>
+      <a class="cat-card" href="/tools.html?category=Marketing"><span class="emoji">💼</span><span class="label">Marketing</span><small>Ads & social</small></a>
+      <a class="cat-card" href="/tools.html?category=Coding"><span class="emoji">👨‍💻</span><span class="label">Coding</span><small>Autocomplete & debug</small></a>
+      <a class="cat-card" href="/tools.html?category=Education"><span class="emoji">📚</span><span class="label">Education</span><small>Research & study</small></a>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Featured AI tools</h2>
+      <p>A starting shortlist — every card links to a full, honest review.</p>
+    </div>
+    <div id="featured-tools" class="tool-grid"></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="section-head left">
+      <h2>Best AI tools for...</h2>
+      <p>Curated collections, picked for a specific person or budget.</p>
+    </div>
+    <div class="chip-row">
+      <button class="chip" data-collection="students">Students</button>
+      <button class="chip" data-collection="freelancers">Freelancers</button>
+      <button class="chip" data-collection="small-business">Small Businesses</button>
+      <button class="chip" data-collection="free">Free Tools</button>
+      <button class="chip" data-collection="under-1000">Under ₹1,000/month</button>
+    </div>
+    <div id="collection-tools" class="tool-grid"></div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="wrap">
+    <div class="section-head left">
+      <h2>Made for how you use AI</h2>
+      <p>Three quick paths into the parts of the site built around you.</p>
+    </div>
+    <div class="audience-grid">
+      <div class="audience-card">
+        <span class="emoji">🎓</span>
+        <h3>Students</h3>
+        <p>Study, research and writing tools — without crossing into academic dishonesty.</p>
+        <ul><li>Note-taking & research</li><li>Exam prep & English practice</li><li>Resume building</li></ul>
+        <a class="btn btn-ghost btn-sm" href="/students.html">Visit student hub</a>
+      </div>
+      <div class="audience-card">
+        <span class="emoji">💻</span>
+        <h3>Freelancers</h3>
+        <p>Tools that save hours on proposals, client work and invoicing.</p>
+        <ul><li>Proposal & client writing</li><li>Design & video delivery</li><li>GST-ready invoicing</li></ul>
+        <a class="btn btn-ghost btn-sm" href="/freelancers.html">Visit freelancer hub</a>
+      </div>
+      <div class="audience-card">
+        <span class="emoji">🏢</span>
+        <h3>Small Business</h3>
+        <p>Marketing, support and accounting tools sized for an Indian SMB budget.</p>
+        <ul><li>Marketing & social media</li><li>Customer support</li><li>Accounting & CRM</li></ul>
+        <a class="btn btn-ghost btn-sm" href="/small-business.html">Visit business hub</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="section-head left">
+      <h2>Latest guides</h2>
+      <p>Search-intent articles, not filler — written to actually answer the question.</p>
+    </div>
+    <div id="latest-guides" class="guide-grid"></div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="wrap">
+    <div class="newsletter">
+      <div>
+        <h2>Get the best AI tools and productivity tips every week.</h2>
+        <p>One email a week. No spam — unsubscribe anytime.</p>
+      </div>
+      <form class="newsletter-form">
+        <input type="email" required placeholder="you@email.com" aria-label="Email address">
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="/" style="color:#fff;">AI<span class="dot">Setu</span></a>
+        <p>The trusted starting point for discovering, comparing and learning AI tools in India.</p>
+      </div>
+      <div><h4>Explore</h4>
+        <a href="/tools.html">All AI Tools</a>
+        <a href="/finder.html">AI Tool Finder</a>
+        <a href="/blog.html">Guides</a>
+      </div>
+      <div><h4>Audiences</h4>
+        <a href="/students.html">Students</a>
+        <a href="/freelancers.html">Freelancers</a>
+        <a href="/small-business.html">Small Business</a>
+      </div>
+      <div><h4>Categories</h4>
+        <a href="/tools.html?category=Writing">Writing</a>
+        <a href="/tools.html?category=Design">Design</a>
+        <a href="/tools.html?category=Coding">Coding</a>
+      </div>
+      <div><h4>Company</h4>
+        <a href="/about.html">About</a>
+        <a href="/affiliate-disclosure.html">Affiliate Disclosure</a>
+        <a href="/contact.html">Contact</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 AISetu. All tool names & logos belong to their respective owners.</span>
+      <span><a href="/affiliate-disclosure.html">Some links are affiliate links — see disclosure</a></span>
+    </div>
+  </div>
+</footer>
+
+<script src="/js/data.js"></script>
+<script src="/js/main.js"></script>
+</body>
+</html>
