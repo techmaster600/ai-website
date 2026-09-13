@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ChatGPT Review 2026 — Pricing, Features & Alternatives | AISetu</title>
+<meta name="description" content="ChatGPT review: pricing in ₹, free plan details, best use cases, pros & cons, and alternatives for Indian students, freelancers and businesses.">
+<link rel="canonical" href="https://aisetu.example.com/tools/chatgpt.html">
+<link rel="icon" href="data:,">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "ChatGPT",
+  "applicationCategory": "AI Chat Assistant",
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "INR" },
+  "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.6", "ratingCount": "1" }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type":"Question","name":"Is ChatGPT free to use in India?","acceptedAnswer":{"@type":"Answer","text":"ChatGPT has a free plan (demo data). Paid plans unlock higher usage limits and extra features — confirm current pricing on the official site before relying on this figure."}},
+    {"@type":"Question","name":"Can students use ChatGPT for assignments?","acceptedAnswer":{"@type":"Answer","text":"It can help with brainstorming, explaining concepts and improving drafts, but submitting AI-generated work as your own may violate your institution's academic integrity policy — always check your college's rules first."}}
+  ]
+}
+</script>
+</head>
+<body>
+
+<div class="demo-banner"><strong>Demo build:</strong> pricing and ratings on this page are placeholder data — verify against the official ChatGPT pricing page before publishing.</div>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="/">
+      <svg viewBox="0 0 32 32" fill="none"><path d="M4 22c6-10 14-16 24-16" stroke="url(#g1)" stroke-width="4" stroke-linecap="round"/><circle cx="4" cy="22" r="3.4" fill="#4f46e5"/><circle cx="28" cy="6" r="3.4" fill="#8b5cf6"/><defs><linearGradient id="g1" x1="4" y1="22" x2="28" y2="6"><stop stop-color="#4f46e5"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient></defs></svg>
+      AI<span class="dot">Setu</span>
+    </a>
+    <nav class="main-nav">
+      <a href="/tools.html" class="active">AI Tools</a>
+      <a href="/students.html">Students</a>
+      <a href="/freelancers.html">Freelancers</a>
+      <a href="/small-business.html">Small Business</a>
+      <a href="/finder.html">Tool Finder</a>
+      <a href="/blog.html">Guides</a>
+    </nav>
+    <div class="header-actions">
+      <a class="btn btn-primary btn-sm" href="/tools.html">Explore Tools</a>
+      <button class="nav-toggle" aria-label="Menu">☰</button>
+    </div>
+  </div>
+</header>
+
+<section class="section" style="padding-bottom:0;">
+  <div class="wrap">
+    <nav class="breadcrumbs"><a href="/">Home</a> / <a href="/tools.html">AI Tools</a> / ChatGPT</nav>
+    <div class="tool-hero">
+      <div class="tool-logo">GPT</div>
+      <div class="tool-hero-info">
+        <h1>ChatGPT</h1>
+        <p>General-purpose AI chat assistant for writing, research, brainstorming and coding help.</p>
+        <div class="pill-list">
+          <span class="badge free">Free plan available</span>
+          <span class="badge">Writing</span>
+          <span class="rating"><span class="star">★★★★★</span> 4.6/5</span>
+          <span class="badge demo">Demo data</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="detail-grid">
+      <div>
+        <h3>Overview</h3>
+        <p>ChatGPT is a conversational AI assistant that can help with writing, summarising, brainstorming, explaining concepts, and basic coding. It's often the first AI tool people try because of its free tier and simple chat interface.</p>
+
+        <h3>Best use cases</h3>
+        <ul style="margin:12px 0 24px;display:flex;flex-direction:column;gap:8px;">
+          <li style="color:var(--text-muted);font-size:14.5px;">→ Drafting and improving essays, emails and cover letters</li>
+          <li style="color:var(--text-muted);font-size:14.5px;">→ Explaining difficult concepts in simple language</li>
+          <li style="color:var(--text-muted);font-size:14.5px;">→ Brainstorming ideas for projects, content or business</li>
+          <li style="color:var(--text-muted);font-size:14.5px;">→ Quick help debugging small code snippets</li>
+        </ul>
+
+        <h3>Pros & cons</h3>
+        <div class="pros-cons">
+          <div class="box">
+            <h4>Pros</h4>
+            <ul>
+              <li>Free plan covers most everyday tasks (demo)</li>
+              <li>Simple, familiar chat interface</li>
+              <li>Wide general knowledge base</li>
+            </ul>
+          </div>
+          <div class="box">
+            <h4>Cons</h4>
+            <ul>
+              <li>Free tier usage limits during busy periods (demo)</li>
+              <li>Can state incorrect facts confidently — always verify</li>
+              <li>Not built for GST-specific or India-only workflows</li>
+            </ul>
+          </div>
+        </div>
+
+        <h3 style="margin-top:28px;">Who should use it</h3>
+        <p>A good first AI tool for students, freelancers and small business owners who want general writing and research help without a steep learning curve.</p>
+
+        <h3>FAQ</h3>
+        <div class="faq-item">
+          <h4>Is ChatGPT free to use in India?</h4>
+          <p>It has a free plan (demo data). Paid plans unlock higher limits and extra features — confirm current pricing on the official site.</p>
+        </div>
+        <div class="faq-item">
+          <h4>Can students use ChatGPT for assignments?</h4>
+          <p>It can help with brainstorming and improving drafts, but submitting AI-generated work as your own may break your institution's academic integrity policy — check your college's rules first.</p>
+        </div>
+
+        <h3 style="margin-top:28px;">Related tools</h3>
+        <div id="related-tools" class="tool-grid"></div>
+      </div>
+
+      <aside>
+        <div class="sidebar-card">
+          <h4 style="font-family:var(--font-head);font-size:15px;">Quick facts</h4>
+          <p style="font-size:13.5px;margin:10px 0;"><strong>Pricing:</strong> Free · Plus from ₹1,900/mo (demo)</p>
+          <p style="font-size:13.5px;margin:10px 0;"><strong>Free plan:</strong> Yes</p>
+          <p style="font-size:13.5px;margin:10px 0;"><strong>Best for:</strong> Students & all-round writing</p>
+          <p style="font-size:13.5px;margin:10px 0;"><strong>Platform:</strong> Web, iOS, Android</p>
+          <a class="btn btn-primary" style="width:100%;margin-top:10px;" href="https://chat.openai.com" target="_blank" rel="nofollow sponsored noopener">Visit official site →</a>
+          <p class="affiliate-note">Some links on this page may be affiliate links. If you sign up through them, AISetu may earn a commission at no extra cost to you. See our <a href="/affiliate-disclosure.html">affiliate disclosure</a>.</p>
+        </div>
+        <div class="sidebar-card">
+          <h4 style="font-family:var(--font-head);font-size:15px;">Compare</h4>
+          <p style="font-size:13.5px;margin-bottom:10px;">See how it stacks up against Claude.</p>
+          <a class="btn btn-ghost btn-sm" style="width:100%;" href="/compare/chatgpt-vs-claude.html">ChatGPT vs Claude</a>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-bottom">
+      <span>© 2026 AISetu. All tool names & logos belong to their respective owners.</span>
+      <span><a href="/affiliate-disclosure.html">Some links are affiliate links — see disclosure</a></span>
+    </div>
+  </div>
+</footer>
+
+<script src="/js/data.js"></script>
+<script src="/js/main.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", ()=>{
+    const related = TOOLS.filter(t=>t.slug!=="chatgpt").slice(0,3);
+    renderInto("related-tools", related, toolCardHTML);
+  });
+</script>
+</body>
+</html>
